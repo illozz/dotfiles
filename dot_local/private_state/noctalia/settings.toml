@@ -7,17 +7,20 @@ end = [ "tray", "notifications", "volume", "brightness", "clock" ]
 margin_edge = 5
 margin_ends = 15
 margin_opposite_edge = 5
+radius = 10
 start = [ "wallhaven", "wallpaper", "cpu", "ram" ]
 
 [dock]
 background_opacity = 0.59999998658895493
 cross_axis_padding = 5
 enabled = true
-icon_size = 35
+icon_size = 30
 launcher_position = "start"
 magnification = false
+main_axis_padding = 10
 margin_edge = 5
 pinned = [ "Alacritty", "brave-origin", "org.kde.dolphin" ]
+radius = 10
 show_dots = true
 
 [lockscreen_widgets]
@@ -57,6 +60,9 @@ widget_order = [ "lockscreen-login-box@Virtual-1" ]
 
 [plugins]
 enabled = [ "noctalia/wallhaven" ]
+
+[theme]
+builtin = "Tokyo-Night"
 
 [wallpaper.default]
 path = "/home/oli/Pictures/Wallpapers/wallhaven-gwdze7.jpg"

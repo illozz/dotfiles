@@ -10,6 +10,10 @@ Rows=1
 GapBottom=5
 GapLeft=15
 GapRight=15
+TilingBorderColorSourceActive=NoctaliaPrimary
+TilingBorderMode=ActiveOnly
+TilingBorderThickness=1
+TilingCornerRadius=5
 
 [Tiling][1098cd11-ce1e-4b4d-a317-294340c10fff][9608a8fe-c30a-49ca-92ea-c242cbcbb967]
 padding=4
